@@ -5,7 +5,7 @@ library(downloader)
 
 shinyUI(pageWithSidebar(
   
-  headerPanel("Floating Plant-Submerged Plant Interactions"),
+  headerPanel("FP-SAV interactions: Seasonality"),
   
   sidebarPanel(    
     h3("User Inputs"),
