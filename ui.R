@@ -11,7 +11,7 @@ shinyUI(pageWithSidebar(
     h3("User Inputs"),
     selectInput("TOTALN", 
                 "Total N (mg/L):",
-                choices=c(0.1,0.5,1,2,3,4,5,6,7,8,9,10),
+                choices=c(1,2,3,4,5,6,7,8,9),
                 selected=5
     ),
 

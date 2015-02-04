@@ -219,7 +219,7 @@ shinyServer(function(input, output) {
   
     # URL varies depending on input 
     url <- paste("https://s3.amazonaws.com/fpsavseasons/AltState/",
-                 "alt_plot_","_",
+                 "alt_states_plot_",
                  TOTALN(),"_",
                  days(),"_",
                  ".jpg",sep="")
