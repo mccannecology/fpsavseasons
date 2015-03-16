@@ -17,12 +17,12 @@ shinyUI(pageWithSidebar(
 
     selectInput("initial_perc_FP_cover", 
                 "Initial FP cover(%):",
-                choices=c(1,5,15,30,45),
+                choices=c(1,5,15,30),
                 selected=15
     ),
     selectInput("initial_perc_SAV_cover", 
                 "Initial SAV cover(%):",
-                choices=c(1,5,15,30,45),
+                choices=c(1,5,15,30),
                 selected=15
     ),
     selectInput("days", 
@@ -74,7 +74,7 @@ shinyUI(pageWithSidebar(
         HTML("mccannecology.weebly.com"),
         br(),
         br(),
-        HTML("<I>Last updated: 4 February 2015.</I>"),
+        HTML("<I>Last updated: 16 March 2015.</I>"),
         br(),
         br()
         ),
